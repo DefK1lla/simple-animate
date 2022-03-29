@@ -1,0 +1,47 @@
+html,
+body {
+	margin: 20px;
+	background: #eee;
+}
+
+.faq {
+	padding: 30px;
+	max-width: 600px;
+	overflow: hidden;
+}
+
+.faq .item {
+	margin: 20px 0;
+}
+
+.faq .item .ask {
+	font-size: 30px;
+	margin-bottom: 10px;
+	cursor: pointer;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.faq .item .answer {
+	background: #ff0;
+	overflow: hidden;
+	padding: 0 15px;
+	display: none;
+}
+
+.open {
+	display: block !important;
+}
+
+.box {
+	width: 400px;
+	height: 200px;
+	background: rgb(40, 136, 214);
+	display: none;
+}
